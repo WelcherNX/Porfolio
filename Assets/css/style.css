@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+}
+
+.jumbotron {
+	background-color: #1a1c1f
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;    
+    
+}
+
+header h1 {
+    margin: 1;
+    font-size: 2.5vw;
+    line-height: 1;
+    background-color: rgb(106, 194, 194);
+    width: 400px;
+    padding-left: 100px;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: beige;
+}
+
+.BJJ {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../img/BJJ\ Blue.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.ZeCaption {
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    font-size: 40px;
+    background-color: cadetblue;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    font-size: 1.4rem;
+    color: rgb(106, 194, 194);    
+  }
+
+  nav a:hover {
+      background-size: 100%
+  }
+
+.banner {
+    text-align: center;
+    justify-content: center;
+}
+
+/*Content titles*/
+    .about {
+       width: 100px;
+       padding-left: 30px; 
+    }
+
+    .work {
+        width: 100px;
+        padding-left: 30px;
+    }
+
+    .Contact {
+        width: 100px;
+        padding: 30px;
+    }
+
+
+  main h2 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-size: 40px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      justify-content: left;
+      width: 15%;
+  }
+
+/*Content's Information*/
+  .about p {
+    
+
+  }
